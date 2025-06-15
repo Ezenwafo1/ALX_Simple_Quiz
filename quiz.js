@@ -11,7 +11,7 @@ function checkAnswer() {
      const userAnswer = selectedOption.value;
 
      if (userAnswer === correctAnswer){
-        document.getElementById('feedback').textContent='correct answer. well done'
+        document.getElementById('feedback').textContent='Correct! Well done.'
         return;
      }
      else{
