@@ -15,7 +15,7 @@ function checkAnswer() {
         return;
      }
      else{
-        document.getElementById('feedback').textContent='Incorrect. try again';
+        document.getElementById('feedback').textContent='That's incorrect. Try again!';
 
      }
      }
